@@ -1,5 +1,14 @@
 # Changelog
 
+## Release v1.1.1 - 04th September 2017
+
+
+- [6f818c5](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/6f818c506139debad3188d3bb027ca6808d9577d) Ordered lists are now styled
+- [9fb2a23](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/9fb2a23ab32fb61b62a77e9e8d590ab2cddb8201) adds support for subtitles in pages that can be defined with `.Description` in the front matter
+-[a0db308](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/a0db30812aafc89cde5a77d3189f3a028fabe5ba) widens the content column to improve the readability of code examples
+- [5108c87](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/5108c8787408d4d31a9161bb47cc506fd2d01fc6) loads FontAwesome from Bootstrap's CDN instead of using the local file.
+
+
 ## Release v1.1 - 26th April 2017
 
 *In the future new additions and changes will be assigned to version numbers rather than dates.* This allows you to track changes in a better fashion. The state of this theme before this release has been assigned to v1.0.
@@ -8,19 +17,19 @@
 
 ### Fixes:
 
-34f8cf2 fixes display issues of the about page that occured in Hugo v0.18 and higher due to the way how Hugo treats sites as a page of different kinds. **It's required to rename `content/about/index.md` to `content/about/_index.md`**.
+[34f8cf2](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/34f8cf2)q fixes display issues of the about page that occured in Hugo v0.18 and higher due to the way how Hugo treats sites as a page of different kinds. **It's required to rename `content/about/index.md` to `content/about/_index.md`**.
 
 ### Improvements
 
-- 931eb53 improves the generation URLs and linkage of pages
-- 9b358a9 uses block templates to reduce redundancy
-- dd67ac4 adds support for linking pages in the main menu
+- [931eb53](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/931eb53) improves the generation URLs and linkage of pages
+- [9b358a9](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/9b358a9) uses block templates to reduce redundancy
+- [dd67ac4](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/dd67ac4) adds support for linking pages in the main menu
 
 ### Deprecations
 
-- fa3c87d replaces .Now which was deprecated in Hugo v0.19
-- c618828 deprecates the `params.about` config option
-- 1b6b863 deprecates the option to hide single pages with the `hidden = true` front matter option. Use `draft = true` instead
+- [fa3c87d](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/fa3c87d) replaces .Now which was deprecated in Hugo v0.19
+- [c618828](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/c618828) deprecates the `params.about` config option
+- [1b6b863](https://github.com/digitalcraftsman/hugo-cactus-theme/commit/1b6b863) deprecates the option to hide single pages with the `hidden = true` front matter option. Use `draft = true` instead
 
 
 ## 4th January 2016
